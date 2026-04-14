@@ -1,0 +1,6 @@
+@Payment_Idempotency_Service_Backend_HostAddress = http://localhost:5238
+
+GET {{Payment_Idempotency_Service_Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

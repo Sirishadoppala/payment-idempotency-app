@@ -1,0 +1,66 @@
+.payment-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#f6f9fc;
+}
+
+.payment-card{
+    background:white;
+    padding:40px;
+    width:380px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.payment-card h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.payment-card form{
+    display:flex;
+    flex-direction:column;
+}
+
+.payment-card input{
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+/* google-pay style receiver id */
+.receiver-input{
+    font-family:inherit;
+    font-size:0.9rem;
+    color:#555;
+    letter-spacing:0.5px;
+}
+
+.payment-card button{
+    padding:12px;
+    border:none;
+    background:#635bff;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.payment-card button:hover{
+    background:#4b44e0;
+}
+
+.history-button{
+    display:block;
+    text-align:center;
+    margin-top:12px;
+    color:#635bff;
+    text-decoration:none;
+    font-size:0.9rem;
+}
+
+.history-button:hover{
+    text-decoration:underline;
+}
